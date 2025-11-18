@@ -1,0 +1,11 @@
+### POST request to create a new patient
+PUT http://localhost:4000/patients/223e4567-e89b-12d3-a456-426614174014
+Content-Type: application/json
+
+{
+  "name": "John DECJ",
+  "dateOfBirth": "1990-01-01",
+  "email": "abc2@gmail.com",
+  "address": "123 Main St"
+}
+###
